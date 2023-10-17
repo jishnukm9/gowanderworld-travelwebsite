@@ -1,0 +1,59 @@
+
+
+
+$primary: #51b7d8;
+// $primary: ;
+$secondary: #77dd77;
+$dark: #2b3041;
+$light: #f3f6f9;
+
+
+// #navbar
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: $primary;
+
+
+$list-group-item-padding-x: 0;
+
+// scss-docs-start display-headings
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+  7: 2rem,
+  8: 1.5rem,
+  9: 1rem,
+  10: 0.5rem
+) !default;
+
+
+
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 3.5,
+  7: $spacer * 4,
+  8: $spacer * 4.5,
+  9: $spacer * 5,
+  10: $spacer * 5.5,
+  11: $spacer * 6,
+  12: $spacer * 6.5,
+  13: $spacer * 7,
+  14: $spacer * 7.5,
+  15: $spacer * 8,
+  16: $spacer * 8.5,
+) !default;
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
